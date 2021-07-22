@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Zhihu Page Helper
 // @namespace    strayscript
-// @version      0.3
+// @version      0.3.1
 // @description  Make Zhihu easier to use for me.
 // @author       StrayWarrior
 // @match        http*://*.zhihu.com/*
