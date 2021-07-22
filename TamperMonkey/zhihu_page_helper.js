@@ -20,6 +20,12 @@
     document.body.insertAdjacentElement("afterend", mark);
   }
 
+  HTMLCollection.prototype.forEach = function(callback) {
+    for (var i = 0; i < this.length; ++i) {
+      callback(this[i]);
+    }
+  }
+
   var zhuanlan_clean_function = function() {
     document.getElementsByClassName("is-fixed is-bottom").forEach(self_remove);
     document.getElementsByClassName("CornerButtons").forEach(self_remove);
